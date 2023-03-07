@@ -1,0 +1,122 @@
+
+/* PC */
+@media (min-width: 1024px) {
+    .pc {
+
+    }
+    .mobile-menu-btn {
+        display: none;
+    }
+}
+
+/* TABLET and MOBILE */
+@media (max-width: 1023px) {
+    .buy-btn-place, .input-send {
+        padding: 14px 16px;
+        width: 100%;
+    }
+
+    .contact-form .form-control {
+        padding: 15px;
+    }
+
+}
+
+/* TABLET */
+@media (min-width: 740px) and (max-width: 1023px) {
+    #content .section-heading {
+        max-width: 100%;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
+
+/* MOBILE */
+@media (max-width: 739px) {
+    #header {
+        overflow: hidden;
+    }
+
+    #header .header-search {
+        display: none;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav > li {
+        display: block;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        position:initial;
+    }
+   
+    #content .section-heading {
+        max-width: 100%;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .mobile-menu-btn {
+        right: 0;
+        top: 0;
+        padding: 0 21px;
+        color: #fff;
+        font-size: 20px;
+        line-height: 46px;
+        position: absolute;
+    }
+
+    .mobile-menu-btn:hover {
+        background-color: #ccc;
+        color: black;
+    }
+
+    #content .member-list {
+        margin-top: 32px;
+        width: 100%;
+    }
+
+    #content .member-img {
+        width: 60%;
+    }
+
+    .tour-newyork {
+        width: 100%;
+    }
+
+    .tour-paris {
+        width: 100%;
+        margin-top: 16px;
+    }
+
+    .tour-sanfran {
+        width: 100%;
+        margin-top: 16px;
+    }
+
+    .buy-btn-place {
+        width: 100%;
+        text-align: center;
+    }
+
+    .contact-info, .contact-form,
+    .text-email, .text-name {
+        width: 100%;
+    }
+
+    .text-email, .text-name {
+        margin-top: 8px;
+    }
+
+    .input-send {
+        width: 100%;
+    }
+
+}
